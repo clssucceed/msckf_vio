@@ -23,6 +23,8 @@ sudo apt-get install libsuitesparse-dev
 ## Compling
 The software is a standard catkin package. Make sure the package is on `ROS_PACKAGE_PATH` after cloning the package to your workspace. And the normal procedure for compiling a catkin package should work.
 
+将https://github.com/ros-planning/random_numbers下载到xx_ws/src目录下，更多信息详见https://www.shangmayuan.com/a/f34640d5f4754dfe85364c41.html
+
 ```
 cd your_work_space
 catkin_make --pkg msckf_vio --cmake-args -DCMAKE_BUILD_TYPE=Release
